@@ -35,6 +35,7 @@ init(
     "https://osmosis.marsprotocol.io",
     "https://hub.injective.network",
     "https://cosmos.pstake.finance",
+    "http://192.168.10.26:3001/",
   ],
   ["https://wallet.keplr.app"],
   CommunityChainInfoRepo,

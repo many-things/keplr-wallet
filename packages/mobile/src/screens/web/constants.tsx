@@ -237,3 +237,23 @@ export const PStakeItem: Item = {
   key: "pstake",
   component: PStakeImage,
 };
+
+const IonDaoImage: FunctionComponent = () => {
+  const smartNavigation = useSmartNavigation();
+
+  return (
+    <WebpageImageButton
+      name="ION DAO"
+      // todo
+      source={require("../../assets/image/webpage/pstake.png")}
+      onPress={() => {
+        smartNavigation.pushSmart("Web.IonDao", {});
+      }}
+    />
+  );
+};
+
+export const IonDaoItem: Item = {
+  key: "IonDao",
+  component: IonDaoImage,
+};

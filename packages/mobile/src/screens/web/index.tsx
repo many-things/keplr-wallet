@@ -17,6 +17,7 @@ import {
   UmeeItem,
   WYNDDaoItem,
   PStakeItem,
+  IonDaoItem,
 } from "./constants";
 import { WebpageImageButton } from "./common";
 
@@ -38,6 +39,7 @@ const WebpagesPerLabel: {
       StrideItem,
       PStakeItem,
       RegenItem,
+      IonDaoItem,
     ],
   },
   {
@@ -59,7 +61,7 @@ const WebpagesPerLabel: {
   },
   {
     label: "DAO",
-    items: [DaoDaoItem],
+    items: [DaoDaoItem, IonDaoItem],
   },
   {
     label: "Refi",
@@ -99,7 +101,7 @@ export const WebScreen: FunctionComponent = () => {
           "margin-bottom-20",
         ])}
       >
-        Discover Apps
+        test
       </Text>
       <LabelSelector
         selectedKey={selectedLabelKey}
